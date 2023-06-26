@@ -17,7 +17,7 @@ const SearchBar = ({ cityName, setCityName, getWeatherData }) => {
                         <InputAdornment position="end">
                             <IconButton
                                 type="submit"
-                                aria-label="add"
+                                aria-label="search"
                             >
                                 <AddIcon />
                             </IconButton>
