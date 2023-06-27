@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, IconButton, InputAdornment, TextField } from '@mui/material';
-import AddIcon from '@mui/icons-material/Add';
+import SearchIcon from '@mui/icons-material/Search';
 
 const SearchBar = ({ cityName, setCityName, getWeatherData }) => {
 
@@ -19,7 +19,7 @@ const SearchBar = ({ cityName, setCityName, getWeatherData }) => {
                                 type="submit"
                                 aria-label="search"
                             >
-                                <AddIcon />
+                                <SearchIcon />
                             </IconButton>
                         </InputAdornment>
                     )
